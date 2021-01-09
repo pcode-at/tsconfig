@@ -1,5 +1,6 @@
 MIT License
 
+Copyright (c) pcode <office@pcode.at> (http://www.pcode.at)
 Copyright (c) Sean Colin Roach <me@seancroach.dev> (http://seancroach.dev)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

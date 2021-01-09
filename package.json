@@ -1,10 +1,10 @@
 {
-  "name": "@seancroach/tsconfig",
+  "name": "@pcode-at/tsconfig",
   "version": "2.1.0",
   "description": "A shared TypeScript configuration I use across my projects.",
   "license": "MIT",
-  "repository": "seancroach/tsconfig",
-  "author": "Sean Colin Roach <me@seancroach.dev> (http://seancroach.dev)",
+  "repository": "pcode-at/tsconfig",
+  "author": "pcode <office@pcode.at> (http://www.pcode.at)",
   "main": "tsconfig.json",
   "engines": {
     "node": ">=10"

@@ -1,15 +1,6 @@
-# @seancroach/tsconfig
+# @pcode-at/tsconfig
 
-<p align="left">
-  <a href="https://github.com/seancroach/tsconfig/actions?query=workflow%3ACI">
-    <img alt="build status" src="https://img.shields.io/github/workflow/status/seancroach/tsconfig/CI?logo=GitHub">
-  </a>
-  <a href="https://www.npmjs.com/package/@seancroach/tsconfig">
-    <img alt="downloads" src="https://img.shields.io/npm/dt/@seancroach/tsconfig?logo=npm">
-  </a>
-</p>
-
-_A shared TypeScript configuration I use across my projects._
+_A shared TypeScript configuration for pcode projects based on  based on [@seancroach/tsconfig](https://github.com/seancroach/tsconfig).
 
 ## Highlights
 
@@ -23,23 +14,23 @@ it's already right here to use!
 
 ## Installation
 
-Install `@seancroach/tsconfig` through `npm`:
+Install `@pcode-at/tsconfig` through `npm`:
 
 ```
-$ npm install --save-dev @seancroach/tsconfig
+$ npm install --save-dev @pcode-at/tsconfig
 ```
 
 ## Usage
 
-In your `tsconfig.json` file, extend `@seancroach/tsconfig` using the `extends` field:
+In your `tsconfig.json` file, extend `@pcode-at/tsconfig` using the `extends` field:
 
 ```jsonc
 {
-  "extends": "@seancroach/tsconfig"
+  "extends": "@pcode-at/tsconfig"
   // ...
 }
 ```
 
 ## License
 
-This package is available as open source under the terms of the [MIT License](https://github.com/seancroach/tsconfig/blob/latest/LICENSE.md).
+This package is available as open source under the terms of the [MIT License](https://github.com/pcode-at/tsconfig/blob/latest/LICENSE.md).
