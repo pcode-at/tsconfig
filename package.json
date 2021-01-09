@@ -1,6 +1,6 @@
 {
   "name": "@pcode-at/tsconfig",
-  "version": "2.1.0",
+  "version": "0.0.1",
   "description": "A shared TypeScript configuration I use across my projects.",
   "license": "MIT",
   "repository": "pcode-at/tsconfig",
