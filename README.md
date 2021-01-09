@@ -1,6 +1,6 @@
 # @pcode-at/tsconfig
 
-_A shared TypeScript configuration for pcode projects based on  based on [@seancroach/tsconfig](https://github.com/seancroach/tsconfig).
+A shared TypeScript configuration for pcode projects based on [@seancroach/tsconfig](https://github.com/seancroach/tsconfig).
 
 ## Highlights
 
