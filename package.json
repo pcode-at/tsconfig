@@ -1,44 +1,44 @@
 {
-    "name": "@pcode-at/tsconfig",
-    "version": "0.0.4",
-    "description": "A shared TypeScript configuration I use across my projects.",
-    "license": "MIT",
-    "repository": "pcode-at/tsconfig",
-    "author": "pcode <office@pcode.at> (http://www.pcode.at)",
-    "main": "tsconfig.json",
-    "engines": {
-        "node": ">=10"
-    },
-    "scripts": {
-        "prepare": "npx prettier \"**\" --write",
-        "test": "npx prettier \"**\" --check"
-    },
-    "keywords": [
-        "config",
-        "configurations",
-        "ts",
-        "tsconfig",
-        "typescript"
-    ],
-    "dependencies": {
-        "@tsconfig/node10": "^1.0.7"
-    },
-    "devDependencies": {
-        "@commitlint/cli": "^11.0.0",
-        "@commitlint/config-conventional": "^11.0.0",
-        "husky": "^4.3.6",
-        "prettier": "^2.2.1",
-        "prettier-plugin-package": "^1.3.0"
-    },
-    "commitlint": {
-        "extends": [
-            "@commitlint/config-conventional"
-        ]
-    },
-    "husky": {
-        "hooks": {
-            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-            "pre-commit": "npm test"
-        }
+  "name": "@pcode-at/tsconfig",
+  "version": "0.0.5",
+  "description": "A shared TypeScript configuration I use across my projects.",
+  "license": "MIT",
+  "repository": "pcode-at/tsconfig",
+  "author": "pcode <office@pcode.at> (http://www.pcode.at)",
+  "main": "tsconfig.json",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "prepare": "npx prettier \"**\" --write",
+    "test": "npx prettier \"**\" --check"
+  },
+  "keywords": [
+    "config",
+    "configurations",
+    "ts",
+    "tsconfig",
+    "typescript"
+  ],
+  "dependencies": {
+    "@tsconfig/node10": "^1.0.7"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "husky": "^4.3.6",
+    "prettier": "^2.2.1",
+    "prettier-plugin-package": "^1.3.0"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm test"
     }
+  }
 }

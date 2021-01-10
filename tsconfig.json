@@ -1,18 +1,18 @@
 {
-    "extends": "@tsconfig/node10",
-    "compilerOptions": {
-        // build configurations
-        "assumeChangesOnlyAffectDirectDependencies": false,
-        "declaration": true,
-        // runtime configurations
-        "resolveJsonModule": true,
-        // lint configurations
-        "allowUnreachableCode": false,
-        "noFallthroughCasesInSwitch": true,
-        "noImplicitReturns": true,
-        "noUncheckedIndexedAccess": true,
-        "noUnusedLocals": true,
-        "noUnusedParameters": true,
-        "importsNotUsedAsValues": "error"
-    }
+  "extends": "@tsconfig/node10",
+  "compilerOptions": {
+    // build configurations
+    "assumeChangesOnlyAffectDirectDependencies": false,
+    "declaration": true,
+    // runtime configurations
+    "resolveJsonModule": true,
+    // lint configurations
+    "allowUnreachableCode": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "importsNotUsedAsValues": "error"
+  }
 }
